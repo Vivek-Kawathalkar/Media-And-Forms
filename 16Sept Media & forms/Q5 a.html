@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 a. Sign UP</title>
+</head>
+<body>
+    <form style="border:1px solid #9e9e9e">    
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" name="firstname" required minlength="3">
+        <br>
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" name="lastname" required minlength="3">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required minlength="3">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required >
+        <br>
+        <label for="confpassword">Confirm Password: </label>
+        <input type="password" id="confpassword" name="confpassword" required >
+        <br>
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" required min=0 max=150 >
+        <br>
+        <label>Gender: </label>
+        <input type="radio" id="male" name="gender" value="male" required >
+        <label for="male">Male</label>
+        <input type="radio" id="femal" name="gender" value="female" required >
+        <label for="femal">Femal</label>
+        <input type="radio" id="transgender" name="gender" value="transgender" required >
+        <label for="transgender">Transgender</label>
+        <br>
+        <label for="t&c">
+            <input type="checkbox" name="t&c" value="agreed" id="t&c" required> I agree <a href="#" style="color: blue;">terms and conditions.</a>
+        </label>
+        <br>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
